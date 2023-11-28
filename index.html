@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato</title>
+</head>
+<body>
+    <nav>
+        <div id="logo">
+            <img src="./contatogallery/Hapvida_1000x1000_Prancheta-1.png" alt="logo">
+        </div>
+        <div id="menu">
+            <a href="">Home</a>
+            <a href="">Problema & Solução</a>
+            <a href="">Demonstração da Solução</a>
+            <a href="">Contato</a>
+        </div>
+    </nav>
+
+    <section id="form-section">
+        <form id="contactForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="button" onclick="submitForm()">Enviar</button>
+        </form>
+
+        <p id="message">Agradecemos o contato! Por favor, preencha com seus dados!</p>
+    </section>
+
+    <section id="table-section">
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>RM</th>
+            </tr>
+            <tr>
+                <td>Caio Hideki Cardenas Ishizu</td>
+                <td>RM553630</td>
+            </tr>
+            <tr>
+                <td>Marcelo Vieira de Melo</td>
+                <td>RM552953</td>
+            </tr>
+            <!-- Adicione mais linhas conforme necessário -->
+        </table>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
