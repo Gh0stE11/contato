@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2156A2;
+    padding: 1rem;
+    border-radius: 0rem 0rem 2rem 2rem;
+}
+
+nav img{
+    width: 8rem;
+}
+
+nav #menu a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav #menu a:hover{
+    text-decoration: underline;
+    background-color: orangered;
+    transition: 1s;
+    border-radius: 1.5rem;
+}
